@@ -6,10 +6,22 @@ This repository hosts a small static welcome page. It exists to prove that the a
 
 ## Public site
 
-- Site: https://ccleungsir.github.io/grokbot-web-demo/
+- Official GitHub Pages: https://ccleungsir.github.io/grokbot-web-demo/
 - Repository: https://github.com/ccleungsir/grokbot-web-demo
+- Public HTML preview (served from `main`): https://raw.githack.com/ccleungsir/grokbot-web-demo/main/index.html
 
 The page is Traditional Chinese first, with supporting English. There is no build step: open `index.html`, or let GitHub Pages serve the files from `main`.
+
+## Enable GitHub Pages
+
+GitHub App / Actions tokens cannot create a Pages site for the first time. The owner needs one click:
+
+1. Open [Settings → Pages](https://github.com/ccleungsir/grokbot-web-demo/settings/pages)
+2. Choose either:
+   - **GitHub Actions**, then re-run the **Deploy GitHub Pages** workflow
+   - or **Deploy from a branch**: branch `main`, folder `/` (root)
+
+The site URL stays https://ccleungsir.github.io/grokbot-web-demo/
 
 ## What is in the repo
 
