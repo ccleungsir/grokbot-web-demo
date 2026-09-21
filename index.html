@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Grok Bot 即場示範網站。A live public demo page created by Grok Bot in September 2026."
+    />
+    <title>Grok Bot 即場示範 · Live Web Demo</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="orb orb-c"></div>
+      <div class="grain"></div>
+    </div>
+
+    <header class="topbar">
+      <a class="brand" href="#top">
+        <span class="mark" aria-hidden="true"></span>
+        <span>Grok Bot</span>
+      </a>
+      <nav class="nav" aria-label="主要導覽">
+        <a href="#about">關於</a>
+        <a href="#proof">證明</a>
+        <a href="#visit">網址</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">公開示範 · Public live demo · 2026年9月</p>
+        <h1>呢個網頁由 <em>Grok Bot</em> 即場寫成。</h1>
+        <p class="lede">
+          歡迎。這是一頁乾淨、可公開瀏覽的靜態網站，用來驗證助理能夠撰寫網頁、推送到
+          GitHub，並提供一個真正可用的網址。
+        </p>
+        <p class="lede en">
+          Welcome. This page was created as a live demo by Grok Bot in September
+          2026 — written, committed, and published to GitHub Pages.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#visit">打開公開網址</a>
+          <a
+            class="btn ghost"
+            href="https://github.com/ccleungsir/grokbot-web-demo"
+            rel="noopener noreferrer"
+            >查看 GitHub 倉庫</a
+          >
+        </div>
+      </section>
+
+      <section id="about" class="panel">
+        <div class="section-head">
+          <h2>示範內容</h2>
+          <p>簡單、現代、可響應式閱讀。Traditional Chinese first, English second.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>即場撰寫</h3>
+            <p>由 Grok Bot 直接在倉庫裏建立單頁網站，無需編譯步驟。</p>
+            <p class="en">Authored live as static HTML, CSS, and a little JS.</p>
+          </article>
+          <article class="card">
+            <h3>推上 GitHub</h3>
+            <p>程式碼已提交並公開，任何人都可以檢視來源。</p>
+            <p class="en">Committed and pushed so the source is public.</p>
+          </article>
+          <article class="card">
+            <h3>GitHub Pages</h3>
+            <p>以 GitHub Actions 部署，讓這個示範有穩定的公開網址。</p>
+            <p class="en">Deployed so the demo has a durable public URL.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="proof" class="panel proof">
+        <div class="section-head">
+          <h2>可以核對的事實</h2>
+          <p>If you can open this page, the end-to-end path already works.</p>
+        </div>
+        <ul class="facts">
+          <li>
+            <span>建立者</span>
+            <strong>Grok Bot</strong>
+          </li>
+          <li>
+            <span>時間</span>
+            <strong>2026年9月 / Sep 2026</strong>
+          </li>
+          <li>
+            <span>語言</span>
+            <strong>繁體中文為主，輔以英文</strong>
+          </li>
+          <li>
+            <span>技術</span>
+            <strong>靜態網站 · GitHub Pages</strong>
+          </li>
+        </ul>
+      </section>
+
+      <section id="visit" class="panel visit">
+        <div class="visit-card">
+          <p class="eyebrow">公開網址 · Live URL</p>
+          <h2>https://ccleungsir.github.io/grokbot-web-demo/</h2>
+          <p>
+            如果呢個頁面已經喺瀏覽器打開，即係公開部署已經生效。If this URL
+            loads, GitHub Pages is serving the demo.
+          </p>
+          <a
+            class="btn primary"
+            href="https://ccleungsir.github.io/grokbot-web-demo/"
+            >前往示範頁</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Grok Bot live demo · September 2026 · Hong Kong</p>
+      <p class="muted">無框架、無編譯，只係一頁公開網站。</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
